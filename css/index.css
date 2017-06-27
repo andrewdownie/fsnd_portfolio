@@ -3,9 +3,6 @@ body {
   padding-top: 50px;
 }
 
-
-
-
 /* Bootstrap Overrides */
 .page-header {
   border-bottom: 1px solid #02b3e4;
@@ -14,9 +11,6 @@ body {
 .container-fluid {
   padding: 0;
 }
-
-
-
 
 /* Navbar */
 .navbar {
@@ -34,9 +28,6 @@ body {
   border-bottom: 1px white solid;
   border-radius: 2px;
 }
-
-
-
 
 /* Title Area */
 .title-area-img {
@@ -65,9 +56,6 @@ body {
   text-align: center;
   font-family: serif;
 }
-
-
-
 
 /* Work Item */
 .work-item {
@@ -101,9 +89,6 @@ body {
   border-top: none;
 }
 
-
-
-
 /* General Layout Helpers */
 .center-content {
   text-align: center;
@@ -113,15 +98,12 @@ body {
   margin-top: 50px;
 }
 
-.bottom-space {
+.footer {
   margin-top: 200px;
   width: 100%;
   height: 70px;
   background-color: #eee;
 }
-
-
-
 
 /* Media Queries */
 @media(max-width: 768px) {
