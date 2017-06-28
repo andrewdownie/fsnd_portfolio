@@ -8,9 +8,6 @@ body {
   border-bottom: 1px solid #02b3e4;
 }
 
-.container-fluid {
-  padding: 0;
-}
 
 /* Navbar */
 .navbar {
@@ -54,16 +51,33 @@ body {
   object-fit: cover;
   max-height: 450px;
   margin: 0;
+  padding: 0;
 }
 
 .title-area {
   position:relative;
   bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title-area-row {
+  margin: 0;
+  padding: 0;
+}
+
+.title-area-col {
+  margin: 0;
+  padding: 0;
 }
 
 .title-area-quote-container {
-  position: absolute;
   background-color: rgba(180, 180, 180, 0.4);
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   padding-bottom: 50px;
   padding-top: 40px;
   top: 33%;
@@ -75,6 +89,7 @@ body {
   text-align: center;
   font-family: serif;
   color: black;
+  font-size: 40px;
 }
 
 /* Work Item */
@@ -120,9 +135,12 @@ body {
 
 .footer {
   margin-top: 200px;
-  width: 100%;
   height: 70px;
   background-color: #eee;
+}
+
+.new-line {
+  display: block;
 }
 
 /* Media Queries */
